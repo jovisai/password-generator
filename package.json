@@ -3,16 +3,10 @@
   "version": "0.5.5",
   "description": "A minimal app for generating strong password for my logins",
   "scripts": {
-    "minifyJS": "uglifyjs scripts.js --compress --mangle --warn --output scripts.min.js",
-    "production": "npm run && npm run minifyJS --silent"
+    "production": "gulp"
   },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "gulp-htmlmin": "^5.0.1",
-    "minify": "^9.2.0",
-    "node-minify": "^3.6.0"
-  },
+  "author": "Muthukrishnan",
+  "license": "MIT",
   "devDependencies": {
     "gulp": "^4.0.2",
     "gulp-clean": "^0.4.0",
