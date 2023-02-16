@@ -1,1 +1,0 @@
-var compressor=require("node-minify");compressor.minify({compressor:"uglifyjs",input:"./**/*.js",output:"dist/main.js",callback:function(i,s){}});

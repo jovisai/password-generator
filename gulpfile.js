@@ -24,7 +24,7 @@ gulp.task("minify-css", () => {
 
 gulp.task("minify-js", function () {
   return gulp
-    .src(["*.js"])
+    .src(["main.js"])
     .pipe(minifyJs({
         ext: {
             min: '.js' // Set the file extension for minified files to just .js
